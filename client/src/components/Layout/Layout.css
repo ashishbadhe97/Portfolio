@@ -5,8 +5,9 @@
 
 .sidenav-section{
     height: 100vh;
-    background-color: aqua;
+    background-color: #2e2e1e;
     width: 100px;
+    transition: width 0.9s ease;
 }
 
 .sidenav-toggled{
@@ -20,7 +21,8 @@
 }
 
 .sidenav-toggle-icon p svg{
-    background-color: brown;
+    background-color:  #f29f67;
+    color: white;
     cursor: pointer;
 }
 
