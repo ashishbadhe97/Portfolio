@@ -1,0 +1,26 @@
+
+.layout-div{
+    display: flex;
+}
+
+.sidenav-section{
+    height: 100vh;
+    background-color: aqua;
+    width: 100px;
+}
+
+.sidenav-toggled{
+    width: 250px;
+}
+
+.sidenav-toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.sidenav-toggle-icon p svg{
+    background-color: brown;
+    cursor: pointer;
+}
+
