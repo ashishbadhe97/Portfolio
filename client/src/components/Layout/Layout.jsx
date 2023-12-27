@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdOutlineKeyboardDoubleArrowLeft, MdKeyboardDoubleArrowRight } from "react-icons/md";
 import Home from "../../pages/Home/Home";
 import "./Layout.css";
+import Menu from "../Menu/Menu";
 
 const Layout = () => {
 
@@ -19,6 +20,7 @@ const Layout = () => {
             {sideNavToggle ? <MdOutlineKeyboardDoubleArrowLeft size={30} /> : <MdKeyboardDoubleArrowRight size={30} />}
           </p>
         </div>
+        <Menu toggle={sideNavToggle}/>
       </div>
       <div className="main-page-conent">
         <Home />
