@@ -23,7 +23,7 @@ const Layout = () => {
         <Menu toggle={sideNavToggle}/>
       </div>
       <div className="main-page-conent">
-        <Home />
+        <Home toggle={sideNavToggle}/>
       </div>
     </div>
   );
