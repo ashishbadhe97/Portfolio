@@ -4,9 +4,10 @@
 }
 
 .sidenav-section{
-    height: 100vh;
+    position: fixed;
     background-color: #2e2e1e;
     width: 100px;
+    height: 100vh;
     transition: width 0.9s ease;
 }
 
@@ -26,3 +27,11 @@
     cursor: pointer;
 }
 
+.main-page-content{
+    margin-left: 100px;
+    transition: margin-left 0.9s;
+}
+
+.main-page-content-toggled{
+    margin-left: 250px;
+}

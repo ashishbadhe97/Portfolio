@@ -1,20 +1,39 @@
-
 .home-container {
-    height: 100vh;
-    width: 83vw;
-    transition: width 0.9s ease;
+  width: inherit;
+  transition: width 0.9s ease;
 }
 
-.untoggled{
-    width: 93vw;
+.untoggled {
+  width: 93vw;
 }
 
-.home-heading{
-    height: 300px;
-    width: 100%;
-    background-color: aqua;
-    padding: 40px;
-    padding-top: 80px;
-    padding-left: 100px;
-    color: white;
+.home-heading {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+  padding: 40px;
+  padding-top: 80px;
+  padding-left: 100px;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 12px;
+  margin-top: 10px;
+  color: white;
+  width: 100px;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  transition: width 0.5s ease;
+}
+
+button:hover {
+  width: 150px;
+}
+
+.btn-resume a {
+  text-decoration: none;
+  color: inherit;
 }
