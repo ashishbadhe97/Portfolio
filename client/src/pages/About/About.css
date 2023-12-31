@@ -1,6 +1,6 @@
 
 .about-container{
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 20px;
     width: inherit;
 }
@@ -18,9 +18,21 @@
     border-radius: 20px;
 }
 
+
+
 .about-details{
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    text-align: justify;
+    color: #3B444B;
+}
+
+.about-title{
+    text-decoration: underline;
+}
+
+.about-text{
+    font-size: larger;
 }
