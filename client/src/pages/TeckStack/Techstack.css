@@ -1,0 +1,45 @@
+.techstack-container {
+  padding: 20px;
+}
+
+.techstack-section {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 20px;
+}
+
+.techstack-title {
+  text-align: center;
+}
+
+.techstack-title h2 {
+  color: green;
+}
+
+.techstack-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  row-gap: 50px;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+
+.tech-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  row-gap: 20px;
+  width: 200px;
+  transition: width 0.9s, height 0.9s;
+}
+
+.tech-card img{
+    border-radius: 10px;
+}

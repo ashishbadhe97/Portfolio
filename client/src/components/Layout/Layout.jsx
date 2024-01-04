@@ -4,6 +4,7 @@ import Home from "../../pages/Home/Home";
 import "./Layout.css";
 import Menu from "../Menu/Menu";
 import About from "../../pages/About/About";
+import Techstack from "../../pages/TeckStack/Techstack";
 
 const Layout = () => {
   const [sideNavToggle, setSideNavToggle] = useState(true);
@@ -25,7 +26,7 @@ const Layout = () => {
       <div className={sideNavToggle ? "main-page-content main-page-content-toggled" : "main-page-content"}>
         <Home toggle={sideNavToggle} />
         <About />
-        <About />
+        <Techstack />
       </div>
     </div>
   );

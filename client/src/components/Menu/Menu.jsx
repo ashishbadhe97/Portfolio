@@ -9,7 +9,7 @@ const Menu = ({ toggle }) => {
   return (
     <div>
       <div className="menu-image-div">
-        <img className={toggle ? "untoggled-image" : "toggled-image"} src="/images/my-image.jpeg" />
+        <img className={toggle ? "untoggled-image" : "toggled-image"} src="/images/my-imagee.jpeg" />
       </div>
 
       <div className="menu-icons-container">
