@@ -24,7 +24,6 @@
   column-gap: 20px;
 }
 
-
 .tech-card {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
@@ -37,9 +36,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   row-gap: 20px;
   width: 200px;
-  transition: width 0.9s, height 0.9s;
 }
 
-.tech-card img{
-    border-radius: 10px;
+
+
+.tech-card img {
+  border-radius: 10px;
+}
+
+.tech-card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }

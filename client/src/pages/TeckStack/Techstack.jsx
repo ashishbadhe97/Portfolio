@@ -3,7 +3,7 @@ import "./Techstack.css";
 
 const Techstack = () => {
   return (
-    <div className="techstack-container">
+    <div className="conatiner techstack-container">
       <div className="techstack-section">
         <div className="techstack-title">
           <h2>Tech Stack</h2>
