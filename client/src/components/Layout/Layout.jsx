@@ -5,6 +5,8 @@ import "./Layout.css";
 import Menu from "../Menu/Menu";
 import About from "../../pages/About/About";
 import Techstack from "../../pages/TeckStack/Techstack";
+import Projects from "../../pages/Projects/Projects";
+import Experience from "../../pages/Experience/Experience";
 
 const Layout = () => {
   const [sideNavToggle, setSideNavToggle] = useState(true);
@@ -27,6 +29,8 @@ const Layout = () => {
         <Home toggle={sideNavToggle} />
         <About />
         <Techstack />
+        <Projects />
+        <Experience />
       </div>
     </div>
   );
