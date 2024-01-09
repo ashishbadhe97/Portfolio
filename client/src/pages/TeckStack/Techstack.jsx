@@ -15,7 +15,7 @@ const Techstack = () => {
           {techStackArray.map((tech, index) => {
             return (
               <Fade left>
-                <div key={index + Math.trunc(Math.random())} className="tech-card js">
+                <div key={index + Math.trunc(Math.random())} className="tech-card">
                   <img src={tech.imgPath} alt={tech.altName} />
                   <span>{tech.techName}</span>
                 </div>
